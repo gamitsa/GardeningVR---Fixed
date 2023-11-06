@@ -6,7 +6,7 @@ using UnityEngine;
 public class FootStepsAudio : MonoBehaviour
 {
     public AudioClip[] steps;
-    public List<AudioClip> randomlist;
+    private List<AudioClip> randomlist;
     AudioSource source;
 
     [SerializeField] float stepSpeed = 0.5f;
