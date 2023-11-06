@@ -1,0 +1,15 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/Testing VR.unity
+    guid: b8c9ff307c926c748b8790570b3b0f24
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: dbd20467e05891741a0696dfcb0f92b9,
+      type: 2}
+    com.unity.xr.openxr.settings4: {fileID: 11400000, guid: a32907544b752964884473cc742d6f38,
+      type: 2}

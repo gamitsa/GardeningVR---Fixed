@@ -1,0 +1,22 @@
+fileFormatVersion: 2
+guid: bea89c5f5ab0edb47b1d065fb58d2e3f
+TrueTypeFontImporter:
+  externalObjects: {}
+  serializedVersion: 4
+  fontSize: 16
+  forceTextureCase: -2
+  characterSpacing: 0
+  characterPadding: 1
+  includeFontData: 1
+  fontNames:
+  - CHAWP
+  fallbackFontReferences:
+  - {fileID: 12800000, guid: 1288460f31967c74fa86229f840a64ca, type: 3}
+  customCharacters: 
+  fontRenderingMode: 0
+  ascentCalculationMode: 1
+  useLegacyBoundsCalculation: 0
+  shouldRoundAdvanceValue: 1
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
