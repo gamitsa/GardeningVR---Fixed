@@ -7040,6 +7040,11 @@ PrefabInstance:
       propertyPath: m_Materials.Array.data[0]
       value: 
       objectReference: {fileID: 2100000, guid: 92fc61c1aa5b144779072e4f73264200, type: 2}
+    - target: {fileID: -7029948723529949830, guid: cbaa8e34fb2b14cbc8fbaaed701bad01,
+        type: 3}
+      propertyPath: m_TagString
+      value: Plantable
+      objectReference: {fileID: 0}
     - target: {fileID: 919132149155446097, guid: cbaa8e34fb2b14cbc8fbaaed701bad01,
         type: 3}
       propertyPath: m_Name
