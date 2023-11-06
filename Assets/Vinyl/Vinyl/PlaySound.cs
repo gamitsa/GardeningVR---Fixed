@@ -16,16 +16,11 @@ public class PlaySound : MonoBehaviour
     // Start is called before the first frame update
     void Start()
     {
+        soundPlayer.Stop();
         playMusic = "Play Music";
         animator.speed = 0.0f;
         playMusicText.text = playMusic;
         stopMusic = "Stop Music";
-    }
-
-    // Update is called once per frame
-    void Update()
-    {
-        
     }
 
     public void playThisSoundEffect()
