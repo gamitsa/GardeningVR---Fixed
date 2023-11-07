@@ -357,6 +357,36 @@ PrefabInstance:
       propertyPath: m_Name
       value: Vinyl player animation
       objectReference: {fileID: 0}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.size
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Target
+      value: 
+      objectReference: {fileID: 1802297912}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_MethodName
+      value: PlayThisSoundEffect
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_TargetAssemblyTypeName
+      value: PlaySound, Assembly-CSharp
+      objectReference: {fileID: 0}
+    - target: {fileID: 3066152689717226923, guid: 48054f2cc27269a48b0176348a009612,
+        type: 3}
+      propertyPath: m_OnClick.m_PersistentCalls.m_Calls.Array.data[0].m_Arguments.m_ObjectArgumentAssemblyTypeName
+      value: UnityEngine.Object, UnityEngine
+      objectReference: {fileID: 0}
     - target: {fileID: 3244721336601405003, guid: 48054f2cc27269a48b0176348a009612,
         type: 3}
       propertyPath: m_RootOrder
@@ -495,7 +525,7 @@ AudioSource:
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 8300000, guid: b2100a10c51c544d8b4ca5fc7de5d362, type: 3}
   m_PlayOnAwake: 1
-  m_Volume: 0.4
+  m_Volume: 0.6
   m_Pitch: 1
   Loop: 0
   Mute: 0
@@ -5035,6 +5065,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1181817781521992978, guid: 7c7f8c18d15a1684eb90a9dc91742c48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 004a15c2e1aabdd4f830d428bc988541, type: 2}
     - target: {fileID: 8229961462547867613, guid: 7c7f8c18d15a1684eb90a9dc91742c48,
         type: 3}
       propertyPath: m_RootOrder
@@ -12362,6 +12397,12 @@ MeshCollider:
   m_Convex: 1
   m_CookingOptions: 30
   m_Mesh: {fileID: 2956796027096077909, guid: f8d0901392f0340c7bfec08bb66bbe4f, type: 3}
+--- !u!1 &706887474 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1740180456103782648, guid: 84ed77aceec8c9c46980b8782285153d,
+    type: 3}
+  m_PrefabInstance: {fileID: 1903555247}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1001 &712452902
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -24023,6 +24064,11 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
+    - target: {fileID: 1181817781521992978, guid: 7c7f8c18d15a1684eb90a9dc91742c48,
+        type: 3}
+      propertyPath: m_Materials.Array.data[0]
+      value: 
+      objectReference: {fileID: 2100000, guid: 9bfc921a51f30fd45b4e61483a44351c, type: 2}
     - target: {fileID: 8229961462547867613, guid: 7c7f8c18d15a1684eb90a9dc91742c48,
         type: 3}
       propertyPath: m_RootOrder
@@ -29325,6 +29371,18 @@ PrefabInstance:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 0e3267c4c58ca48469315e9c1c84ef14, type: 3}
+--- !u!114 &1802297912 stripped
+MonoBehaviour:
+  m_CorrespondingSourceObject: {fileID: 3066152688818778024, guid: 48054f2cc27269a48b0176348a009612,
+    type: 3}
+  m_PrefabInstance: {fileID: 16489859}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 48435474d7979cd4096d417258310120, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1001 &1804980566
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -43235,6 +43293,7 @@ MonoBehaviour:
       m_Flags: 0
     m_Reference: {fileID: -3746549901223320689, guid: c348712bda248c246b8c49b3db54643f,
       type: 3}
+  UIObject: {fileID: 706887474}
 --- !u!114 &3418700038450905357
 MonoBehaviour:
   m_ObjectHideFlags: 0

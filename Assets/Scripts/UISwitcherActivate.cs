@@ -7,10 +7,10 @@ using UnityEngine.InputSystem;
 public class UISwitcherActivate : MonoBehaviour
 {
     [SerializeField] private InputActionProperty inputActionReference_UISwitcher;
-    //[SerializeField] private GameObject UIObject;
+    [SerializeField] private GameObject UIObject;
     private void Awake()
     {
-        //UIObject.SetActive(false);
+        UIObject.SetActive(false);
     }
     private bool UIActive = false;
     private void OnEnable()
@@ -23,7 +23,7 @@ public class UISwitcherActivate : MonoBehaviour
     }
     private void OnUISwitcher(InputAction.CallbackContext obj)
     {
-/*        if (UIActive)
+        if (UIActive)
         {
             UIObject.SetActive(false);
             UIActive = false;
@@ -32,6 +32,6 @@ public class UISwitcherActivate : MonoBehaviour
         {
             UIObject.SetActive(true);
             UIActive = true;
-        }*/
+        }
     }
 }
