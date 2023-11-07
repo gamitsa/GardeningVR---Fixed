@@ -48,7 +48,6 @@ GameObject:
   - component: {fileID: 3460115767981563339}
   - component: {fileID: 1082147459354086354}
   - component: {fileID: 1082147459354086353}
-  - component: {fileID: 3410942946868412158}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -150,20 +149,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.02, z: 0.023050103}
   m_Center: {x: -0.0000000027803027, y: -0.000000029806326, z: 0.0015250554}
---- !u!64 &3410942946868412158
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 326771477154609504}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -5495902117074765545, guid: a0214ad0ed7497b43813139bbccf6e6b, type: 3}
 --- !u!1 &1429606752427190133
 GameObject:
   m_ObjectHideFlags: 0
@@ -178,7 +163,6 @@ GameObject:
   - component: {fileID: 1082147459375134497}
   - component: {fileID: 1082147459375134496}
   - component: {fileID: 8841681423481039912}
-  - component: {fileID: 685811650433042519}
   m_Layer: 0
   m_Name: bookshelf_vase
   m_TagString: Untagged
@@ -295,20 +279,6 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   activationThreshold: 2
   brokenObject: {fileID: 271876999649995703}
---- !u!64 &685811650433042519
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1429606752427190133}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -8678823145569952518, guid: a0214ad0ed7497b43813139bbccf6e6b, type: 3}
 --- !u!1 &8634241507518499604
 GameObject:
   m_ObjectHideFlags: 0
@@ -320,7 +290,6 @@ GameObject:
   - component: {fileID: 4012440946420339369}
   - component: {fileID: 2469245844071133316}
   - component: {fileID: 7258933679539071253}
-  - component: {fileID: 1082147459129610788}
   - component: {fileID: 1587418041290278622}
   m_Layer: 0
   m_Name: Bookshelf
@@ -395,20 +364,6 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1082147459129610788
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8634241507518499604}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: 4493585093827132993, guid: a0214ad0ed7497b43813139bbccf6e6b, type: 3}
 --- !u!64 &1587418041290278622
 MeshCollider:
   m_ObjectHideFlags: 0
@@ -436,7 +391,6 @@ GameObject:
   - component: {fileID: 8759963328392424649}
   - component: {fileID: 1082147459147122497}
   - component: {fileID: 1082147459147122496}
-  - component: {fileID: 5961252571187944390}
   m_Layer: 0
   m_Name: Box
   m_TagString: Untagged
@@ -538,20 +492,6 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 0.02, y: 0.020000001, z: 0.023050109}
   m_Center: {x: 0.000000029788279, y: -0.000000029644278, z: 0.0015250538}
---- !u!64 &5961252571187944390
-MeshCollider:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 8919402897366010593}
-  m_Material: {fileID: 0}
-  m_IsTrigger: 0
-  m_Enabled: 1
-  serializedVersion: 4
-  m_Convex: 0
-  m_CookingOptions: 30
-  m_Mesh: {fileID: -1550514412580984892, guid: a0214ad0ed7497b43813139bbccf6e6b, type: 3}
 --- !u!1001 &1082147458167969510
 PrefabInstance:
   m_ObjectHideFlags: 0
