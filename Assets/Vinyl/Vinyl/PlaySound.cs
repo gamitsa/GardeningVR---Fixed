@@ -23,7 +23,7 @@ public class PlaySound : MonoBehaviour
         stopMusic = "Stop Music";
     }
 
-    public void playThisSoundEffect()
+    public void PlayThisSoundEffect()
     {
         soundPlayer.Play();
         if (!isActive)
