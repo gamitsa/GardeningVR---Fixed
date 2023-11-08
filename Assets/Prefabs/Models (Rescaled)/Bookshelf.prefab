@@ -290,7 +290,7 @@ GameObject:
   - component: {fileID: 4012440946420339369}
   - component: {fileID: 2469245844071133316}
   - component: {fileID: 7258933679539071253}
-  - component: {fileID: 1082147459129610788}
+  - component: {fileID: 1587418041290278622}
   m_Layer: 0
   m_Name: Bookshelf
   m_TagString: Untagged
@@ -364,7 +364,7 @@ MeshRenderer:
   m_SortingLayer: 0
   m_SortingOrder: 0
   m_AdditionalVertexStreams: {fileID: 0}
---- !u!64 &1082147459129610788
+--- !u!64 &1587418041290278622
 MeshCollider:
   m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 0}
